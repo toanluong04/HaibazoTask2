@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'https://haibazo-backend-xyz.onrender.com/api';
+const API = 'https://haibazotask2.onrender.com';
 
 export const api = {
     getAuthors: () => axios.get(`${API}/authors`),
